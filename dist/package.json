@@ -1,0 +1,10 @@
+{
+  "name":"vue-notes",
+  "version":"1.0.0",
+  "description": "A Vue.js notes app",
+  "author": "scratchos <computer.backup.15@gmail.com>",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
