@@ -18,18 +18,19 @@ npm install
 ## Serving
 ```
 git checkout gh-pages
-npm install http-server -g
+npm install -g http-server
 http-server
 ```
 
 ## Building
 To start the hot realoading development server on localhost:8080 run
-`npm run dev`.  This will lint you code before compiling it.
+`npm run dev`.  This will lint your code before compiling it.
 
-To build for production run `npm run build`.  This will build into the
-/dist directory.  You can then `git push` that to the master,  the
-/dist directory will automaticaly go into the `gh-pages` branch.  
-(`git subtree push --prefix dist origin gh-pages`)
+## Deploying
+```
+npm run build
+npm run deploy
+```
 
 ## Contributing
 Please makesure all code passes the linter and test the production 
