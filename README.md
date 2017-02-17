@@ -1,6 +1,6 @@
 # vue-notes
 A notes web app written with vue.js and vuex.
-Try it out [here](https://scratchos.github.io/vue-notes/).
+Try it out [here](https://vuenotes.herokuapp.com/).
 
 ## Features
 * favoriting
